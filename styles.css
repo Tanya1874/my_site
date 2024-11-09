@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(153, 78, 148);/*светлый фон */
+    font-family: Arial, Helvetica, sans-serif;/*шрифт*/
+}
+
+h1 {
+    color: blue;/*синий цвет текста для загаловка*/
+    text-align: center;/*центрируем текст*/
+}
+
+p {
+    color: green;/*зеленый цвет текста для обзаца*/
+    font-size: 20px;/*размер шрифта*/
+    line-height: 1.5;
+    text-align: left;
+}
+
+.my_button{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+.my_button:hover{
+    background-color: #b30009;
+}
+.my_button:active{
+    background-color: #098500;
+    transform: scale(0.95);
+}
